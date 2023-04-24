@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roomies || Find Roomates || Rooms</title>
+    <link rel="stylesheet" href="/src/client/docs/styles/navbr.css">
+    <link rel="stylesheet" href="/src/client/docs/styles/signin.css">
+    <script src="/src\client\docs\js\signin.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+
+</head>
+
+<header>
+    <nav>
+        <a href="/src/client/public/index.html" class="logo">Roomies</a>
+        <ul>
+
+            <li><a href="/src\client\docs\html\signin.html"><i class="fa-solid fa-user fa-flip"
+                        style="color: #f7f7f7;"></i> Sign In</a></li>
+
+        </ul>
+    </nav>
+
+</header>
+
+
+<body>
+
+    <div class="row">
+        <div class="column">
+            <img src="/src\client\public\img\sign-in-bg.webp" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+            <div class="container">
+                <div class="card">
+                    <div class="logo-container">
+                        <img src="/src\client\public\img\login.png" alt="User Logo">
+                    </div>
+                    <h2>Sign In</h2>
+                    <form id="signin-form" method="post">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required><br>
+                        <small id="username-error" class="form-text text-danger"></small>
+
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required><br>
+                        <small id="password-error" class="form-text text-danger"></small>
+
+                        <button type="submit" id="signin-btn">Sign In</button>
+                    </form>
+                    <div class="option">
+
+                        <div class="flex items-center space-x-5 text-gray-500 mb-8 px-4">
+                            <div class="w-full bg-gray-300 h-0.5"></div><span>OR</span>
+                            <div class="w-full bg-gray-300 h-0.5"></div>
+                        </div>
+                        <p class="text-sm text-gray-600">New To Roomies?<a href="signup.html">
+                                <span class="greenText font-medium "> Sign Up
+                                </span></a>
+                        </p>
+                        <p class="text-sm text-gray-600 mt-4">Having trouble?<a href="contactus.html"><span
+                                    class="greenText font-medium ml-1 cursor-pointer ">Give Feedback</span></a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html> 
+
+

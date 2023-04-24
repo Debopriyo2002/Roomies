@@ -1,0 +1,188 @@
+.column {
+    /* float: left; */
+    width: 50%;
+    padding: 5px;
+}
+
+.row {
+    content: "";
+    clear: both;
+    display: flex;
+
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px; */
+
+}
+
+/* .search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .search-container input[type=text] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .search-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px; */
+/* } */
+.card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.card input[type="text"],
+.card input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+.card button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.card button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.text-gray-500 {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128/var(--tw-text-opacity));
+}
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.bg-gray-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(209 213 219/var(--tw-bg-opacity));
+}
+.w-full {
+    width: 100%;
+}
+
+.h-0\.5 {
+    height: 0.125rem;
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+.mb-8 {
+    margin-bottom: 2rem;
+}
+.greenText {
+    color:#046609
+}
+.font-medium {
+    font-weight: 600;
+}
+
+
+/* .new-to-roomies {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.new-to-roomies p {
+    margin-right: 0.5rem;
+}
+
+.new-to-roomies a {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.new-to-roomies a:hover {
+    background-color: #148f77;
+}
+.forgot-password {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.forgot-password p {
+    margin-right: 0.5rem;
+}
+
+.forgot-password a {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.forgot-password a:hover {
+    background-color: #148f77;
+} */
+.option{
+    align-items: center;
+    text-align: center;
+}

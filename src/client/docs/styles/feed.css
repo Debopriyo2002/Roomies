@@ -1,0 +1,46 @@
+.contact-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 500px;
+    margin: 81px auto;
+  }
+  
+  .contact-card h2 {
+    margin-top: 0;
+  }
+  
+  .contact-card label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-card input,
+  .contact-card textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contact-card textarea {
+    height: 120px;
+  }
+  
+  .contact-card button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-card button:hover {
+    background-color: #3e8e41;
+  }
+  
